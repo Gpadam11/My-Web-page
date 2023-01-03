@@ -162,6 +162,10 @@ margin-left: 30px;
     background-color: rgb(89, 129, 74);
   }
   
+.nav-bar a:hover{
+    text-decoration: underline;
+}
+  
   .active {
     background-color:#307787;
     color:#40514E;
