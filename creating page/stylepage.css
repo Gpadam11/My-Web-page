@@ -7,32 +7,30 @@ body{
 #bgimg{
     height: 65%;
     width: 100%;
-    position: relative;
     top:0px;
     left:0px;
+    margin: 0px;
 }
 h1{
     font-family: 'Oooh Baby', cursive;
     font-size: 70px;
     color:rgb(63, 63, 128);
     text-align: center;
-    position: relative;
     top: 70px;
     left: 0px;
+    margin-bottom: 0px;
 }
 h2{
     color:#307787;
     font-size: 40px;
     text-align: center;
     margin: 0px;
-    position: relative;
     
 }
 h3{
     font-size: 25px;
     text-align: center;
     margin: 0px;
-    position: relative;
     top: 0px;
     padding: 0px;
 }
@@ -42,7 +40,6 @@ span{
     display: inline-block;
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
-    padding: 10px;
     /* position: relative;
     left:42%;
    
@@ -50,11 +47,17 @@ span{
     float: center; */
 }
 .name{
-    position: relative;
     left: 0px;
+    padding: 25px;
+}
+#line-break{
+    border: solid #b8c7c7 2px;
+    border-bottom: none;
+    width:25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .intro{
-    position: relative;
     text-align: center;
     top: 0px;
 }
@@ -100,14 +103,12 @@ ul{
     width:23%;
      float: left;
      margin-right: 35px;
-        position: relative;
         bottom:30px;
 }
 .editing{
 width:25%;
 float:right;
 margin-left: 30px;
-position: relative;
 top:30px;
 }
 .writer{
@@ -158,12 +159,17 @@ margin-left: 30px;
   }
   
   .nav-bar a :hover:not(.active) {
-    background-color: rgb(104, 185, 231);
+    background-color: rgb(89, 129, 74);
   }
   
   .active {
-    background-color: #307787;
+    background-color:#307787;
+    color:#40514E;
   }
+#resume{
+float:right;
+background-color: #307787;
+}
 
 .header-contact
 {
@@ -215,11 +221,6 @@ margin-left: 30px;
 
 .contact-row{
     background-color:#9acee4;
-    position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-#contact-me{
-margin-bottom: 150px;
 }
